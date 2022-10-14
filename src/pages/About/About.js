@@ -18,15 +18,17 @@ const About = () => {
                  </S.LinkContainer>
             </S.Header>
 
-            <Title content="Arthur Borges"/>
-
             <S.Content>
-                <Container height='50vh' width='15vw'>
-                    <S.Picture src={imgSrc} alt='Profile' />
-                </Container>
-                <Container height='70vh' width='50vw'> 
-                    a 
-                </Container>
+                <Title content="Arthur Borges"/>
+                <S.ContainersBox>
+                    <Container height='50vh' width='15vw'>
+                        <S.Picture src={imgSrc} alt='Profile' />
+                    </Container>
+                    <Container height='70vh' width='50vw'> 
+                        a 
+                    </Container>
+                </S.ContainersBox>
+                
             </S.Content>
         </S.Screen>
 
