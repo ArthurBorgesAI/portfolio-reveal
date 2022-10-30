@@ -5,6 +5,8 @@ import Text from '../../components/Text';
 
 import * as S from './styles';
 
+import { Bounce } from "react-awesome-reveal";
+
 const Skills = () => {
     const technologies = [
         { id: "html", name: "HTML5", icon: <S.HtmlIcon /> },
@@ -17,33 +19,45 @@ const Skills = () => {
         { id: "django", name: "Django", icon: <S.DjangoIcon /> },
     ];
 
+    const otherTechnologies = [
+        { id: "photoshop", name: "Photoshop", icon: <S.PhotoshopIcon /> },
+        { id: "premiere", name: "PremierePro", icon: <S.PremiereIcon /> },
+    ];
+
     return (
-        <S.Screen>
+        <S.Screen id="skills">
             <S.Content>
-                <Subtitle content="Tecnologias" />
+                
 
                 <S.TechsContainer>
+                    <Subtitle content="Tecnologias" />
                     <Subtitle content="Desenvolvimento Web" />
                     <S.Grid>
+                        <Bounce cascade duration='300' fraction='1'  damping={0.1}>
                         {technologies.map((tech) => (
-                            <S.Card id={tech.id} key={tech.id}>
-                                {tech.icon}
-                                <Text content={tech.name} />
-                            </S.Card>
-                        ))}
+                                <S.Card id={tech.id} key={tech.id}>
+                                    {tech.icon}
+                                    <Text content={tech.name} />
+                                </S.Card>
+                            ))}  
+                        </Bounce>
                     </S.Grid>
+                                
                 </S.TechsContainer>
                 
                 <S.TechsContainer>
                     <Subtitle content="Outras tecnologias" />
                     <S.Grid>
-                        {technologies.map((tech) => (
-                            <S.Card id={tech.id} key={tech.id}>
-                                {tech.icon}
-                                <Text content={tech.name} />
-                            </S.Card>
-                        ))}
+                        <Bounce delay='1' cascade duration="100" damping={0.1}>
+                        {otherTechnologies.map((tech) => (
+                                <S.Card id={tech.id} key={tech.id}>
+                                    {tech.icon}
+                                    <Text content={tech.name} />
+                                </S.Card>
+                            ))}  
+                        </Bounce>
                     </S.Grid>
+                     
                 </S.TechsContainer>
                 
             </S.Content>    

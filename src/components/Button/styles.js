@@ -10,7 +10,10 @@ export const Button = styled.a`
     color: #333;
     font-size: 1.3rem;
     text-decoration: none;
+
+    transition: transform .3s;
     :hover{
+        transform: scale(1.2);
         box-shadow: 0 0 11px #000;
     }
 `;

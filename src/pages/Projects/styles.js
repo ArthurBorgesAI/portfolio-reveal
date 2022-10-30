@@ -6,7 +6,7 @@ export const Screen = styled.div`
     justify-content: center;
     height: 100vh;
     width: 100vw;
-    background-color: #543854;
+    background-color: #256D85;
 `;
 
 export const Content = styled.div`
@@ -18,9 +18,19 @@ export const Content = styled.div`
     width: 70%;
 `;
 
-export const ProjectsContainer = styled.div`
+export const ProjectsGrid = styled.div`
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 75%;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow:hidden;
+    height: 15rem;
     width: 90%;
+`;
+
+export const ProjectsContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60rem;
+    height: 30rem;
 `;
