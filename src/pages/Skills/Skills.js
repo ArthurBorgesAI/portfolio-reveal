@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Title from '../../components/Title';
 import Subtitle from '../../components/Subtitle';
 import Text from '../../components/Text';
 
@@ -30,7 +31,7 @@ const Skills = () => {
                 
 
                 <S.TechsContainer>
-                    <Subtitle content="Tecnologias" />
+                    <Title content="Tecnologias" />
                     <Subtitle content="Desenvolvimento Web" />
                     <S.Grid>
                         <Bounce cascade duration='300' fraction='1'  damping={0.1}>

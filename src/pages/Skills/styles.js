@@ -9,9 +9,7 @@ export const Screen = styled.div`
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    width: 100vw;
-    background-color: #06283D;
+    width: 100%;
 `;
 
 export const Content = styled.div`
@@ -20,8 +18,8 @@ export const Content = styled.div`
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    height: 90%;
     width: 100%;
+    margin-top: 3rem;
 `;
 
 export const TechsContainer = styled.div`
@@ -29,19 +27,19 @@ export const TechsContainer = styled.div`
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 23rem;
+    margin-bottom: 2rem;
 
     :nth-child(2){
-        height: 10rem;
+        margin-bottom: 5rem;
     }
 `;
 
 export const Grid = styled.div`
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15%, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 12%));
     gap: .5rem;
     margin-top: 1%;
-    width: 65rem;
+    width: 90%;
 `;
 
 export const Card = styled.div`
@@ -53,6 +51,11 @@ export const Card = styled.div`
     width: 100%;
     height: 100%;
     border-radius: 5px;
+
+    p{
+        color:#A8A8A8;
+        word-break: keep-all;
+    }
 
     transition: transform .3s;
     :hover{

@@ -8,3 +8,9 @@
 a, svg{
   transition: .4s;
 }
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #0f0f0f;
+}

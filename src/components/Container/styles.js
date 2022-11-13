@@ -6,9 +6,9 @@ export const Container = styled.div`
     align-items: center;
     justify-content: space-between;
     position: relative;
-    background-color: #EED6C4;
+    background-color: #333333;
     border-radius: 10px;
-    margin: 10px;
+    margin: 3rem 0 3rem 0; 
     overflow:auto;
 
     height: ${props => props.height};

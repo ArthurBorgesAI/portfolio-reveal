@@ -9,17 +9,12 @@ export const Container = styled.section`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #256D85;
+    background-color: #fff;
     padding: 1rem;
     margin-bottom: 2rem;
     text-align: left;
-    width: 80%;
+    width: 90%;
     border-radius: 5px;
-
-    transition: transform .3s;
-    :hover{
-        transform: scale(1.2);
-    }
 `;
 
 export const Card = styled.div`
@@ -32,20 +27,8 @@ export const Card = styled.div`
     border-bottom: 1px solid #444;
     width: 100%;
 
-    h3{
-        color: #FFF3E4;
-        font-size: .8rem;
-        margin-bottom: .5rem;
-    }
-
-    p{
-        color: #FFF3E4;
-        font-weight: bold;
-        word-break: break-word;
-    }
-
     svg{
-        background-color: #111;
+        background-color: #0f0f0f;
         padding: 0.4rem;
         width: 2rem;
         height: 2rem;

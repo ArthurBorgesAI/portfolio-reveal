@@ -5,15 +5,15 @@ export const Button = styled.a`
     justify-content: center;
     align-items: center;
     padding: .3em;
-    background-color: #6B4F4F;
+    background-color: #fff;
     border-radius: 5px;
     color: #333;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     text-decoration: none;
 
     transition: transform .3s;
     :hover{
-        transform: scale(1.2);
-        box-shadow: 0 0 11px #000;
+        box-shadow: 0 0 11px #fff;
+        transform: scale(1.3);
     }
 `;

@@ -1,6 +1,7 @@
 import React from "react";
 import * as S from './styles';
 
+import Text from '../Text';
 
 const Information = () => {
 
@@ -10,8 +11,8 @@ return(
         <S.Card>
             <S.PhoneIcon />
             <div>
-                <h3>Phone</h3>
-                <p>(34) 99270-7797</p>
+                <Text content="Fone" />
+                <Text content="(34) 99270-7797" />
             </div>
         </S.Card>
 
@@ -19,8 +20,8 @@ return(
         <S.Card>
             <S.MailIcon />
             <div>
-                <h3>E-mail</h3>
-                <p>arthurborgesti@outlook.com</p>
+                <Text content="E-mail" />
+                <Text content="arthurborgesti@outlook.com" />
             </div>
         </S.Card>
 
@@ -28,8 +29,8 @@ return(
         <S.Card>
             <S.LocationIcon />
             <div>
-                <h3>Localização</h3>
-                <p>Uberlândia - MG</p>
+                <Text content="Localização" />
+                <Text content="Uberlândia - MG" />
             </div>
         </S.Card>
 

@@ -1,5 +1,7 @@
 import React from "react";
 
+import Button from '../Button';
+
 import * as S from './styles'
 
 const Socialmedias = () => {
@@ -13,9 +15,7 @@ const Socialmedias = () => {
     return (
         <S.Container>
             {socialNetworks.map((network) => (
-                <S.Button href={network.path} id={network.name} key={network.name} target="_blank">
-                        {network.icon}
-                </S.Button>
+                <Button href={network.path} id={network.name} key={network.name} target="_blank" content={network.icon} />      
             ))}
         </S.Container>
     );

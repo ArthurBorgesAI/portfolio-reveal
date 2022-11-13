@@ -12,7 +12,7 @@ const Header = () => {
                 <S.Link href="/"> Acessar Currículo </S.Link>
                     <S.LinkContainer>
                         <S.Link smooth to="#about">Sobre mim</S.Link>
-                        <S.Link  smooth to="#projects">Projetos</S.Link>
+                        <S.Link smooth to="#projects">Projetos</S.Link>
                         <S.Link smooth to="#skills">Tecnologias</S.Link>
                     </S.LinkContainer>
             </BrowserRouter>
