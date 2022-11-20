@@ -1,7 +1,6 @@
 import React from 'react';
-import * as S from './styles';
 
-import { Fade } from "react-awesome-reveal";
+import * as S from './styles';
 
 import Header from '../../components/Header';
 import Container from '../../components/Container';
@@ -11,8 +10,12 @@ import Text from '../../components/Text';
 import Socialmedias from '../../components/Socialmedias';
 import Information from '../../components/Information';
 
+import { Fade } from "react-awesome-reveal";
+
+
 const About = () => {
     const imgSrc = require('../../assets/perfil.jpg');
+    const img2 = require('../../assets/projectsImages/pokedex2.jpg');
 
     return(
         <S.Screen id="about">

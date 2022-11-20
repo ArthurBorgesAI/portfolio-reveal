@@ -5,7 +5,6 @@ import * as S from './styles';
 
 const Slideshow = props => {
     const {imgList} = props;
-    const colors = ["#0088FE", "#00C49F", "#FFBB28"];
     const delay = 2500;
 
     const [index, setIndex] = useState(0);
@@ -22,7 +21,7 @@ const Slideshow = props => {
         timeoutRef.current = setTimeout(
           () =>
             setIndex((prevIndex) =>
-              prevIndex === colors.length - 1 ? 0 : prevIndex + 1
+              prevIndex === imgList.length - 1 ? 0 : prevIndex + 1
             ),
           delay
         );
@@ -34,13 +33,10 @@ const Slideshow = props => {
 
       return(
         <S.Container>
-            <S.Slider style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }} >
+            <S.Slider index={-index*100} >
 
-                {colors.map((backgroundColor, index) => (
-                        <S.SlideBox
-                            key={index}
-                            style={ {backgroundColor} }
-                        ></S.SlideBox>
+                {imgList.map((Image, index) => (
+                          <S.Image key={index} src={Image} alt="project screenshot" />
                 ))}
 
             </S.Slider>
