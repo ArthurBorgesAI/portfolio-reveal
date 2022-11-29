@@ -5,7 +5,7 @@ import * as S from './styles';
 const Button = (props) => {
     const { content, href } = props;
     return(
-        <S.Button href={href}> {content} </S.Button>
+        <S.Button href={href} target="_blank"> {content} </S.Button>
     )
 }
 

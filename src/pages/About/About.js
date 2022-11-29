@@ -15,9 +15,8 @@ import { Fade } from "react-awesome-reveal";
 
 const About = () => {
     const imgSrc = require('../../assets/perfil.jpg');
-    const img2 = require('../../assets/projectsImages/pokedex2.jpg');
 
-    return(
+    return (
         <S.Screen id="about">
             <Header />
 
@@ -25,22 +24,22 @@ const About = () => {
                 <Fade duration='2000'>
                     <Container height='45rem' width='21rem'>
                         <S.Subcontainer>
-                                <S.Picture src={imgSrc} alt='Profile' />
-                                <Subtitle content="Arthur Borges" />
-                                <S.Profession> 
-                                    <Text content="Web Dev" />
-                                </S.Profession>
-                                <Socialmedias />      
-                        </S.Subcontainer>   
+                            <S.Picture src={imgSrc} alt='Profile' />
+                            <Subtitle content="Arthur Borges" />
+                            <S.Profession>
+                                <Text content="Web Dev" />
+                            </S.Profession>
+                            <Socialmedias />
+                        </S.Subcontainer>
                         <Information />
                     </Container>
-                
-                    <S.RevealingContainer content=" Lorem ipsum dolor sit amet. Vel labore iure quo galisum nostrum et impedit consectetur qui consequuntur voluptatem non sequi iure vel consequuntur repellendus ut nostrum quaerat. "> 
+
+                    <S.RevealingContainer content=" Lorem ipsum dolor sit amet. Vel labore iure quo galisum nostrum et impedit consectetur qui consequuntur voluptatem non sequi iure vel consequuntur repellendus ut nostrum quaerat. ">
                         <Title content="Sobre mim" />
                     </S.RevealingContainer>
                 </Fade>
-                
-                
+
+
             </S.Content>
         </S.Screen>
 

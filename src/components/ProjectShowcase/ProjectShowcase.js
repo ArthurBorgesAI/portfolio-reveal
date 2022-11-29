@@ -7,7 +7,7 @@ import * as S from './styles.js';
 
 const ProjectShowcase = props => {
     const { name, imgList } = props;
-    return(
+    return (
         <S.Project>
             <Text content={name} />
             <S.ImagesCarousel>
