@@ -18,5 +18,5 @@ export const Slider = styled.div`
 
 export const Image = styled.img`
     height: 10rem;
-    width: 15rem;
+    width: 20rem;
 `;

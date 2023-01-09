@@ -24,6 +24,6 @@ export const ImagesCarousel = styled.div`
 
 export const SlideShowContainer= styled.div`
     height: 10rem;
-    width: 15rem;
+    width: 20rem;
 `;
 
