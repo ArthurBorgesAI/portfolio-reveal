@@ -73,5 +73,7 @@ export const RevealingContainer = styled.div`
     :hover:after{
         content: '${props => props.content}';
         color: #fff;
+        line-height: 22pt;
+        font-style: italic;
     }
 `;

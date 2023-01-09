@@ -34,7 +34,13 @@ const About = () => {
                         <Information />
                     </Container>
 
-                    <S.RevealingContainer content=" Lorem ipsum dolor sit amet. Vel labore iure quo galisum nostrum et impedit consectetur qui consequuntur voluptatem non sequi iure vel consequuntur repellendus ut nostrum quaerat. ">
+                    <S.RevealingContainer content= { `Amante de tecnologia, sempre me interessei por computadores e sistemas digitais.
+ 
+                    Já trabalhei com manutenção de computadores e suporte ao usuário; edição de vídeo e criação de conteúdo; e operação de softwares da Justiça Eleitoral.
+                    
+                    Durante a faculdade trabalhei com o desenvolvimento de modelos preditivos, sendo o principal um modelo de ConvNets para identificação de espécies de plantas.
+                    
+                    Hoje busco trabalhar como Dev, algo que sempre almejei.`}>
                         <Title content="Sobre mim" />
                     </S.RevealingContainer>
                 </Fade>

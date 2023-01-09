@@ -34,6 +34,12 @@ export const Card = styled.div`
         height: 2rem;
         border-radius: 5px;
     }
+
+    :nth-child(3){
+        border-bottom: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
 `;
 
 export const PhoneIcon = styled(Phone)`

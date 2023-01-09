@@ -14,6 +14,15 @@ export const Header = styled.div`
     z-index: 100;
     background: #0f0f0f;
     overflow:hidden;
+
+    a{
+        text-decoration: none;
+        color: #fff;
+        :hover{
+            transform: scale(1.3);
+            color: #47B5FF;
+        }
+    }
 `;
 
 export const Link = styled(HashLink)`
