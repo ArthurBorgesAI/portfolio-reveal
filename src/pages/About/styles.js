@@ -60,11 +60,15 @@ export const RevealingContainer = styled.div`
     position: relative;
     background-color: #333333;
     border-radius: 10px;
-    margin: 10px 10px 10px 10px;
     padding: 5%;
+    margin-left: 1rem;
 
     height: 35rem;
-    width: 42rem;
+    width: 40rem;
+    
+    &&{
+        max-width: 90%;
+    }
 
     transition: 0.3s;
     :hover{
