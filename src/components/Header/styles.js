@@ -5,21 +5,26 @@ export const Header = styled.div`
     display: flex;
     flex-wrap: wrap;
     position: fixed;
-    height: 6vh;
+    left:0px;
+    height: 10vh;
     width: 100%;
     align-items: center;
     justify-content: space-around;
-    padding: 0 3rem 0 3rem;
     border-bottom: #fff .1rem solid;
     z-index: 100;
     background: #0f0f0f;
-    overflow:hidden;
+    
+    
+    overflow: auto;
+    scrollbar-width: none;  
+    ::-webkit-scrollbar {
+        display: none;
+    }
 
     a{
         text-decoration: none;
         color: #fff;
         :hover{
-            transform: scale(1.3);
             color: #47B5FF;
         }
     }
@@ -27,14 +32,7 @@ export const Header = styled.div`
 
 export const Link = styled(HashLink)`
     margin: 0 10px 0 10px;
-    text-decoration: none;
-    color: #fff;
 
-    transition: transform .3s;
-    :hover{
-        transform: scale(1.3);
-        color: #47B5FF;
-    }
 `;
 
 export const LinkContainer = styled.div`

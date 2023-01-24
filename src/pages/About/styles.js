@@ -80,4 +80,10 @@ export const RevealingContainer = styled.div`
         line-height: 22pt;
         font-style: italic;
     }
+
+    overflow: auto;
+    scrollbar-width: none; 
+    ::-webkit-scrollbar {
+        display: none;
+    }
 `;

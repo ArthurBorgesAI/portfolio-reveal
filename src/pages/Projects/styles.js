@@ -35,11 +35,6 @@ export const ProjectSection = styled.div`
     width: 30rem;
     margin: 5% 0 5% 0;
     padding-bottom: 1rem;
-    background: linear-gradient(143deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 12%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 88%, rgba(255,255,255,1) 100%);
-
-    :nth-child(2){
-        background: linear-gradient(222deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 12%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 88%, rgba(255,255,255,1) 100%);
-    }
 `;
 
 export const PaginationStyled = styled(Pagination)`

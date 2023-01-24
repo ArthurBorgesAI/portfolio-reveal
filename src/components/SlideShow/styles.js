@@ -3,11 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
     overflow: hidden;
     width: 100%;
-
-    transition: transform .3s;
-    :hover{
-        transform: scale(2);
-    }
 `;
 
 export const Slider = styled.div`

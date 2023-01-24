@@ -21,7 +21,7 @@ const Skills = () => {
                     <Title content="Tecnologias" />
                     <Subtitle content="Desenvolvimento Web" />
                     <S.Grid>
-                        <Bounce cascade duration='300' fraction='1' damping={0.1}>
+                        <Bounce triggerOnce cascade duration='300' fraction='1' damping={0.1}>
                             {technologies.map((tech) => (
                                 <S.Card id={tech.id} key={tech.id}>
                                     {tech.icon}
@@ -36,7 +36,7 @@ const Skills = () => {
                 <S.TechsContainer>
                     <Subtitle content="Outras tecnologias" />
                     <S.Grid>
-                        <Bounce delay='1' cascade duration="100" damping={0.1}>
+                        <Bounce triggerOnce delay='1' cascade duration="100" damping={0.1}>
                             {otherTechnologies.map((tech) => (
                                 <S.Card id={tech.id} key={tech.id}>
                                     {tech.icon}

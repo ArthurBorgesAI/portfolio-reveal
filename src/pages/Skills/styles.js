@@ -32,6 +32,7 @@ export const TechsContainer = styled.div`
 
 export const Grid = styled.div`
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(10rem, 12%));
     gap: .5rem;
     margin-top: 1%;
