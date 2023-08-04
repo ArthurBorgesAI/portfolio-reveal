@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Subtitle = styled.h2`
+export const SubtitleStyled = styled.h2`
     display: flex;
     color: #A8A8A8;
     font-size: 2.2rem;

@@ -1,10 +1,10 @@
 import React from "react";
-import * as S from "./styles";
+import {TextStyled} from "./styles";
 
 const Text = (props) => {
     const { content } = props;
     return (
-        <S.Text> {content} </S.Text>
+        <TextStyled> {content} </TextStyled>
     );
 }
 

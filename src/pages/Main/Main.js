@@ -1,5 +1,6 @@
 import React, {useEffect} from "react";
 
+import Header from '../../components/Header'
 import About from '../About';
 import Projects from '../Projects';
 import Skills from '../Skills';
@@ -10,6 +11,7 @@ const Main = () => {
       })
    return(
     <>
+        <Header />
         <About />
         <Projects />
         <Skills />

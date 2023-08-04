@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Text = styled.p`
+export const TextStyled = styled.p`
     display:flex;
     color: #0f0f0f;
     justify-content: start;

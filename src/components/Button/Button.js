@@ -1,11 +1,11 @@
 import React from 'react';
 
-import * as S from './styles';
+import {ButtonStyled} from './styles';
 
 const Button = (props) => {
     const { content, href } = props;
     return(
-        <S.Button href={href} target="_blank"> {content} </S.Button>
+        <ButtonStyled href={href} target="_blank"> {content} </ButtonStyled>
     )
 }
 

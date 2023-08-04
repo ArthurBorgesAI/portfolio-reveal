@@ -4,7 +4,7 @@ import {EmailOutline} from '@styled-icons/evaicons-outline';
 import {Location} from '@styled-icons/entypo';
 
 
-export const Container = styled.section`
+export const ContainerStyled = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ export const Container = styled.section`
     border-radius: 5px;
 `;
 
-export const Card = styled.div`
+export const CardStyled = styled.div`
     display: flex;
     align-items: center;
     justify-content: start;

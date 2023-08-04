@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 import { HashLink } from 'react-router-hash-link';
 
-export const Header = styled.div`
+export const HeaderStyled = styled.div`
     display: flex;
     flex-wrap: wrap;
     position: fixed;
     left:0px;
-    height: 10vh;
     width: 100%;
     align-items: center;
     justify-content: space-around;
@@ -22,6 +21,7 @@ export const Header = styled.div`
     }
 
     a{
+        margin: 10px;
         text-decoration: none;
         color: #fff;
         :hover{
@@ -30,12 +30,11 @@ export const Header = styled.div`
     }
 `;
 
-export const Link = styled(HashLink)`
-    margin: 0 10px 0 10px;
-
+export const LinkStyled = styled(HashLink)`
+    margin: 10px;
 `;
 
-export const LinkContainer = styled.div`
+export const LinkContainerStyled = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-around;

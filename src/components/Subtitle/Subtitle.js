@@ -1,10 +1,10 @@
 import React from "react";
-import * as S from "./styles";
+import {SubtitleStyled} from "./styles";
 
 const Subtitle = (props) => {
     const { content } = props;
     return (
-        <S.Subtitle> {content} </S.Subtitle>
+        <SubtitleStyled> {content} </SubtitleStyled>
     )
 }
 
